@@ -1,9 +1,9 @@
- Cafe Ordering System
-Overview of the Project
+ #Cafe Ordering System
+##Overview of the Project
 
 The Cafe Ordering System is a Python-based console application designed to simulate a restaurant ordering and billing experience. Customers can browse a categorized menu (Indian, Chinese, Italian), select multiple items with quantities, and receive a detailed final bill that includes discounts, service charges, and GST.
 
-Features
+##Features
 
 Display a categorized menu of dishes (Indian, Chinese, Italian) with prices.
 
@@ -25,7 +25,7 @@ Prints a detailed final receipt.
 
 User-friendly prompts with error handling for invalid inputs.
 
-Technologies/Tools Used
+##Technologies/Tools Used
 
 Programming Language: Python 3.x
 
@@ -46,7 +46,7 @@ Run the script using the command:
 
 python cafe_ordering_system.py
 
-Instructions for Testing
+##Instructions for Testing
 
 Run the script.
 
@@ -64,7 +64,7 @@ Type 'Done' when finished adding categories, or 'F' to finish ordering.
 
 The system will calculate the final bill, apply discounts if applicable, and print a detailed receipt.
 
-Edge Cases to Test:
+##Edge Cases to Test:
 
 Ordering quantities of zero or negative numbers (should prompt again).
 
@@ -72,7 +72,7 @@ Entering invalid category or item numbers (should prompt again).
 
 Ordering items totaling above Rs. 3500 to test bulk discount.
 
-Screenshots
+##Screenshots
 
 Example of final receipt:
 
